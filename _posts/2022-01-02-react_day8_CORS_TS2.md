@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "MDNでCSSを学習3" 
-date: 2022-01-03 
+title: "CORSについて" 
+date: 2022-01-02 
 category: read 
 excerpt: ""
 ---
