@@ -10,9 +10,8 @@ now: 2019
 # Social links showed in the footer
 # You just need modify the nickname of github and twitter
 link:
-  email : yourname@gmail.com
-  github : yourname
-  twitter : yourname
+  email : yasui-edu0834@toki.waseda.jp
+  github : taisei-13046
 
 # Links in the navigation, you can modify both link name and link url
 nav:
