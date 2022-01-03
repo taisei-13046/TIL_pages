@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <title>{{ page.title}}</title>
+</head>
+<body>
+{% include header.html %}
+<div class="content">
+    <div class="paper paper-before" id="paperBefore"></div>
+    <div class="paper paper-article">
+        <!-- Date No. sign -->
+        <a href="#" title="点击查看日历">
+        <span id="openBtn" class="date-index">
+            No.<span id="postIndex"></span><br>
+                <!--Date YYYY-MM-DD-->
+            {{ page.date | to_string | slice: 0, 10 }}
+        </span>
+        </a>
+        
+        <!--Calendar body-->
+        {% include calendar.html %}
+    
+        <!--Article body-->
+        <article class="typo">
+            {{ content }}
+        </article>
+    </div>        
+</div>
+{% include footer.html %}
+</body>
+</html>
