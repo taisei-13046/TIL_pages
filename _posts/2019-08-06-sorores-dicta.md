@@ -1,57 +1,276 @@
 ---
 layout: post
-title: "Sorores dicta insidias ferarum discedite dixit circumdata" 
-date: 2019-08-06 
+title: "MDNでCSSを学習3" 
+date: 2022-01-03 
 category: read 
 excerpt: ""
 ---
 
-# Sorores dicta insidias ferarum discedite dixit circumdata
+## やったこと
+相変わらずCSSには不安があるので、今日もMDNを読む  
 
-## Videt et strepitu subit
+### テキストの装飾
+[テキストの装飾 MDN](https://developer.mozilla.org/ja/docs/Learn/CSS/Styling_text)  
+テキストを装飾するために使用される CSS プロパティは、一般的に次の2つのカテゴリに分類される
+- `フォントスタイル`
+  - テキストに適用されるフォントに影響するプロパティで、適用するフォント、大きさ、太字、斜体など
+- `テキストのレイアウトスタイル`
+  - テキストの間隔やその他のレイアウト機能に影響するプロパティで、  
+    例えば、行間や文字間のスペースや、コンテンツボックス内でのテキストの配置方法などを操作
 
-Lorem markdownum modo pugnae aetherias secus, qua vivusque Leucothoen si
-aequora. [Vittae parentes eligit](http://www.fatetur-ense.org/de.html) urnam;
-aut et templa obvia pomi *tenet*, Victor ubi **gloria nova** profunda amnem.
-Lacrimae adest est nosces mihi tectura exclamant conanti tecta,
-[in](http://cura.com/atrideshorruit.aspx) utero saltibus limine rediere anxia.
+注: 要素内のテキストはすべて単一の実体として影響を受けることに注意
 
-Que antri vertice sedens et celanda rogato in sparsi. Sedant dignus, invida;
-litora nomen, quam tollens Idas orbe nisi seu vestigia quercus, vix fugit.
-Captam infelix repperit non sibi metus genitore pinna dixit cupido referre.
-**Aut mansit** longe leto redeat acta! In [terga Peliaeque
-intrat](http://iaculum-stamina.net/est.aspx), mihi flebant repertum, *de tibi
-gestet* nec; aethera parentis.
+#### フォントファミリー
+CSS はフォントの5つの総称名を定義しています:  
+セリフ（`serif`）、サンセリフ（`sans-serif`）、等幅（`monospace`）、筆記体（`cursive`）、ファンタジー（`fantasy`）  
 
-## Manu iungit nisi
+**フォントスタック**  
+```css
+p {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+```
+ブラウザーはリストの先頭から始めて、そのフォントがマシンで利用可能かどうかを確認する  
+利用可能なら、そのフォントを選択した要素に適用。 そうでない場合は、次のフォントに移動する。  
+ブラウザーが少なくともほぼ適切なものを提供できるように、スタックの最後に適切な総称フォント名を指定することをお勧め  
 
-Orbem de quoque *cupidusque*, vates sive mutata peraguntque amnis tribus in,
-aestuat. Vidit libratum sustinuit rapidas *tritis* duo, dumque habebat reliquit;
-tergum. Subiecta pulcherrime stipite? Animas gerere sedes glomerataque fido;
-Pico raptam feros nudus Eurytidae neve statione contrarius: nocet. **Causas**
-ornant Stygia rogant tabe Troiam rapere picae, mare fratri velit huc; sit facto
-mora.
+**フォントサイズ**  
+テキストのサイズを設定するために使用する最も一般的な単位  
+- `px`
+  - テキストを表示したい高さのピクセル数
+  - どんな状況でもページ上のフォントの同じ最終的な計算値になる
+- `em`
+  - 1文字分を表している単位
+  - 1em=**16px**
+- `rem`
+  - 常にルート（html）要素を基準にしたem
+  - emは親要素を基準にする
+- `%`
+  - 相対値: 親要素に指定されている文字の大きさの何％の大きさを指定する
+  - emは親要素を基準にする
 
-## Impediebat flumina vertice et servat maestaeque aufer
+`px`で指定すると文字の大きさが拡大できずに、ブラウザによって文字の大きさが変わるため、デザイン上良くない  
+フォントサイズは*相対値*で指定するのが良い
 
-Finem pretium summae, [mea caecoque](http://aridaet.net/lacerta.html) qui
-vastatoremque sitim. Hoc passu dextera canos carpentem capellas Insania
-demittant tantum flammiferas caput exitioque, axes ite flores tenebras veluti.
-Rebello Ulixe multis, nec rex totis memorare turritaque; mortua per
-Hippotadaeque animo. Illuc mitis Melicerta et quoque **dolores**.
+font-size はブラウザー間で標準で 16px に設定されている  
 
-1. Et sequar postquam manum
-2. Aura doctos
-3. Ignara est licet dolor quod attigimus herba
+参考資料 [CSSのフォントサイズの指定の仕方](https://qiita.com/kiyodori/items/722c8001190b0922dabb)  
 
-## Toto illa certam regunt albida curvi litora
 
-Est modo facite a extulit indue namque iam Scylla, ducta triste de leves
-*Mercurio sensurus*. Mihi [aestu](http://silvasilli.net/munera-tu) quid Phinea
-regia senex quaerit crescunt generi, mendosa protinus conciliumque virgo; ex
-*haud* divulsere patuere! Guttura procul; quam horret dixit.
+**フォントスタイル、フォントの太さ、テキスト変換、テキスト飾り**  
+- `font-style`: イタリック体テキストのオンとオフを切り替えるために使用
+  - normal, italic, obliqueを指定
+- `font-weight`: テキストの太さを設定
+  - normal, boldを指定
+- `text-transform`: フォントを変換するように設定
+  - none: 変換を禁止
+  - uppercase: 全てのテキストを大文字に
+  - lowercase: 全てのテキストを小文字に
+  - capitalize: 全ての単語の最初の文字を大文字に
+- `text-decoration`: フォントのテキスト飾りを設定/設定解除
+  - none: すでにあるテキスト飾りを解除する
+  - underline: テキストに下線部をひく
+  - overline: テキストに上線をつける
+  - line-through: テキスト上に取り消し線をつける
+  - 複数つけたい場合は `text-decoration: underline overline`
 
-Autumnos numinis: de terrasque tu et rupit, superasse nactus Pervenit. Longius
-virgamque, sortita fibris. Et possit, nullo, fidere tantum est plenissima vario
-inquit, *domo per* postquam debet, equo nobis intrare. Abeunt voce tum. Taurum
-et tuos!
+
+**テキストのドロップシャドウ**  
+```css
+text-shadow: 4px 4px 5px red;
+```
+プロパティの説明
+1. **元のテキストからの影の水平方向のオフセット** これは、ほとんどの CSS の長さとサイズの単位を取ることができますが、最も一般的には px を使用します。 この値を含める必要があります。
+2. **元のテキストからの影の垂直方向のオフセット** — 基本的に水平方向のオフセットと同じようにふるまいますが、影を左右に移動するのではなく上下に移動する点が異なります。 この値を含める必要があります。
+3. **ぼかし半径** — 値が大きいほど、影はより広く分散されます。 この値が含まれていない場合、デフォルトは 0 になり、ぼかしは行われません。 これは、ほとんどの CSS の長さとサイズの単位を取ることができます。
+4. **影のベースカラー** — 任意の CSS カラー単位を取ります。 含まれていない場合、デフォルトは black です。  
+
+####  テキストのレイアウト
+**テキストの配置**  
+`text-align`で指定する  
+
+**ラインの高さ**  
+```css
+line-height: 1.5;
+```
+line-height を得るために font-size が乗算される  
+一般的に見栄えがよく、読みやすくなります。 推奨されるラインの高さは約 1.5 〜 2（ダブルスペース）  
+
+### リストの装飾
+リストの規定設定
+- `<ul>` 要素と `<ol>` 要素の上下の margin は 16px (1em)、padding-left は 40px (2.5em) です。
+- リスト項目 (`<li>` 要素) には、間隔の設定に関する既定はありません。
+- `<dl>` 要素の上下の margin は 16px (1em) ですが、パディングの設定はありません。
+- `<dd>` 要素の margin-left は 40px (2.5em) です。
+- 参照用に含めた `<p>` 要素には、さまざまな種類のリストと同じ 16px (1em) の上下の margin があります。  
+
+リストを装飾するときは、 (段落や画像などの) 周囲の要素と同じ垂直方向の間隔 (バーティカルリズム (vertical rhythm) とも呼ばれる) と、  
+互いに同じ水平方向の間隔を維持するように装飾を調整する必要がある  
+
+#### リスト固有の装飾
+`list-style-type`: リストに使用する行頭記号の種類を設定
+```css
+ol {
+  list-style-type: upper-roman;
+}
+```
+
+`list-style-position`: 行頭記号をリスト項目の内側に表示するか、その外側の各項目の先頭より前に表示するかを設定
+```css
+ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+```
+
+`list-style-image`: 行頭記号に簡単な正方形や円ではなく、カスタム画像を使うことができる
+```css
+ul {
+  list-style-image: url(star.svg);
+}
+```
+
+#### リストの数え方の制御
+start: `<ol start="4">`  
+start 属性を使用すると、1 以外の数からリストを数え始める  
+
+reversed: `<ol start="4" reversed>`  
+reversed 属性はリストのカウントアップではなくカウントダウンを開始  
+
+value  
+```css
+<ol>
+  <li value="2">Toast pita, leave to cool, then slice down the edge.</li>
+  <li value="4">Fry the halloumi in a shallow, non-stick pan, until browned on both sides.</li>
+  <li value="6">Wash and chop the salad.</li>
+  <li value="8">Fill pita with salad, hummus, and fried halloumi.</li>
+</ol>
+```
+value 属性を使用すると、リスト項目を特定の数値に設定  
+
+### リンクの装飾
+最初に理解するべきことはリンク状態の概念である  
+- **リンク（未訪問）**: リンクが他のどの状態にもない場合に、リンクが属するデフォルトの状態。 これは、:link 疑似クラスを使用して特に装飾できます。
+- **訪問済み**: 既に訪問済み（ブラウザーの履歴に存在する）のリンクで、:visited 擬似クラスを使用して装飾します。
+- **ホバー**: リンクにユーザーのマウスポインタが合わせられているときのリンクで、:hover 疑似クラスを使用して装飾します。
+- **フォーカス**: フォーカスしたときのリンク（例えば、Tab キーなどを使用してキーボードユーザーによって移動してきたか、HTMLElement.focus() を使用してプログラムでフォーカスした） — これは :focus 擬似クラスを使用して装飾します。
+- **アクティブ**: アクティブ化している（例えばクリックされている）ときのリンクで、:active 疑似クラスを使用して装飾します。  
+
+
+リンクにはデフォルトで装飾がされている  
+- リンクには**下線**が引かれています。
+- 未訪問のリンクは**青**です。
+- 訪問済みのリンクは**紫色**です。
+- リンクにホバーすると、マウスポインタが**小さな手のアイコン**に変わります。
+- フォーカスのあるリンクの周囲には**アウトライン**があります — Tab キーを押すと、キーボードでこのページのリンクにフォーカスを合わせることができます（Mac では、これが機能する前に Ctrl + F7 を押してフルキーボードアクセス: すべてのコントロールオプションを有効にする必要があるかもしれません）。
+- アクティブなリンクは**赤**です（リンクをクリックしながらマウスボタンを押したままにしてみてください）。  
+
+これらのデフォルトの装飾は、1990年代半ばのブラウザーの初期の頃のものとほぼ同じ  
+ユーザーがこのふるまいを知っており、予期するようになったため — リンクの装飾が異なると、多くの人が混乱してしまう  
+
+リンクのスタイルは互いに重なっているため、この順序は重要  
+最初の規則の装飾は、それ以降のすべての規則に適用され、リンクがアクティブになっているときは、ホバーもしている  
+
+#### ボタンとしてのリンクの装飾
+```css
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+```
+- デフォルトの text-decoration と outline をオフにする
+- display を inline-block に設定
+  -  `<a>` 要素はデフォルトではインラインですが、ブロックのように、要素を自身のラインからこぼさずに、サイズを変更できるようにしたい
+
+
+## CSSレイアウト
+CSS で要素をどのように配置するかを変更できる方法  
+1. displayプロパティ
+  通常フローに属するすべての要素には display の値が設定されており、この値によって要素のデフォルトのふるまいが決まる  
+  英語の文書内で段落が上から下へ表示されるのは、`display: block` でスタイルが設定されているため  
+  このような display のデフォルトのふるまいは変更できる  
+  
+2. フレックスボックス
+  行または列のいずれかとして、物を1次元にレイアウトすることを容易にするように設計されている  
+  レックスボックスを使うには、display: flex をレイアウトしたい要素の親要素に適用する  
+  
+3. グリッドレイアウト
+  フレックスボックスは1次元レイアウト用に設計されていますが、グリッドレイアウト（Grid Layout）は2次元用に設計されている  
+  
+4. フロート
+  要素を浮動すると、その要素とそれに通常フローで続くブロックレベル要素のふるまいが変わる  
+  要素が左または右に移動されて通常フローから除かれ、囲むコンテンツが浮動項目の周囲に浮かぶ  
+  floatプロパティ
+  - left — 要素を左に浮かべる。
+  - right — 要素を右に浮かべる。
+  - none — まったく浮動しないことを指定する。 これがデフォルト値です。
+  - inherit — float プロパティの値がこの要素の親要素から継承されるべきであることを指定します。
+
+### 位置指定のテクニック
+- **静的位置指定（Static positioning）** は、すべての要素が取得するデフォルトです。 これは、「要素をドキュメントレイアウトフロー内の通常の位置に配置する — ここで見るべき特別なことは何もありません」という意味です。
+- **相対位置指定（Relative positioning）** を使用すると、ページ上の要素の位置を変更して、通常フロー内の位置に相対的に移動できます — ページ上の他の要素と重なるようにすることも含まれます。
+- **絶対位置指定（Absolute positioning）** では、要素は別のレイヤーに配置されているように、ページの通常のレイアウトフローから完全に外れます。 そこから、それをページの `<html>` 要素（あるいはそれに最も近くに位置する祖先要素）の端に相対的な位置に固定することができます。 これは、さまざまなコンテンツパネルを重ねて表示したり、必要に応じて表示/非表示にしたりするタブ付きボックスや、デフォルトでは画面外にありコントロールボタンを使用して画面上をスライドさせることができる情報パネルを作成するのに便利です。
+- **固定位置指定（Fixed positioning）** は絶対位置指定と非常によく似ていますが、他の要素ではなく、ブラウザーのビューポートを基準にして要素を固定する点が異なります。 これは、他のコンテンツがスクロールしても常に画面上の同じ場所にとどまる永続的なナビゲーションメニューなどの効果を作成するのに役立ちます。
+- **粘着位置指定（Sticky positioning）** は、要素が定義されたビューポートからのオフセットにぶつかるまで、要素は position: static のようにふるまい、その位置からは position: fixed のようにふるまう、より新しい位置指定方法です。
+
+
+### 通常フロー
+CSS を適用してふるまいを変更していない場合、ウェブページ上の要素は通常フローでレイアウトされる  
+まず初めに、個々の要素ボックスは要素のコンテンツを取り、それからそれらの周りにパディング (padding、詰め物)、ボーダー (border、境界線) そしてマージン (margin、余白) を追加することによってレイアウトされる  
+デフォルトでは、ブロックレベル要素のコンテンツは、その親要素の幅の 100% で、そのコンテンツと同じ高さ  
+インライン要素は、コンテンツと同じ高さで、コンテンツと同じ幅  
+インライン要素に幅や高さを設定することはできません — それらはブロックレベル要素のコンテンツの中にあるだけ  
+
+### flexbox
+フレックスボックス（Flexbox）は、項目を行または列にレイアウトするための1次元のレイアウト方法  
+要素が柔軟な箱として配置されるとき、それらは次のように2つの軸に沿って配置される 
+![スクリーンショット 2022-01-03 16 21 37](https://user-images.githubusercontent.com/78260526/147907097-76012144-a601-488d-9700-8bbc2b92f166.png)  
+- 主軸（main axis）は、フレックス項目が配置されている方向に走る軸です（例えば、ページを横切る行、またはページ下の列として）。 この軸の始点と終点は、主始点（main start）と主終点（main end）と呼ばれます。
+- 交差軸（cross axis）は、フレックス項目が配置されている方向に対して垂直に走る軸です。 この軸の始点と終点は、交差始点（cross start）と交差終点（cross end）と呼ばれます。
+- display: flex が設定されている親要素（この例では `<section>`）は、フレックスコンテナ（flex container）と呼ばれます。
+- フレックスコンテナ内の柔軟な箱としてレイアウトされている項目は、フレックス項目（flex item）と呼ばれます（この例では `<article>` 要素）。
+
+フレックスボックスは flex-direction というプロパティを提供する  
+これは主軸が走る方向（フレックスボックスの子がどの方向にレイアウトされるか）を指定する  
+デフォルトではこれは **row** に設定されていて、ブラウザーのデフォルト言語が動作する方向（英語のブラウザーの場合は左から右に）にそれらが横一列にレイアウトされる  
+```css
+flex-direction: column;
+```
+上の設定だと、項目が縦方向に設定される  
+
+#### ラッピング
+レイアウトの幅や高さが決まっているときに発生する問題の1つは、最終的にはフレックスボックスの子がコンテナをオーバーフローさせてレイアウトが壊れること  
+その修正方法は,
+`<section>`タグに
+```css
+flex-wrap: wrap;
+```
+`<article>`タグに
+```css
+flex: 200px;
+```
+を指定する
+
+#### 水平方向と垂直方向の配置
+フレックスボックスの機能を使用して、主軸または交差軸に沿ってフレックス項目を整列させることもできる  
+```css
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+```
+`align-items` は、フレックス項目が交差軸上のどこに配置されるかを制御する  
+- デフォルトでは、この値は stretch
+  - すべてのフレックス項目を交差軸の方向に親を埋めるように引き伸ばす
+  - 親が交差軸方向に固定幅を持っていない場合、すべてのフレックス項目は最長のフレックス項目と同じ長さになる
+
+`justify-content` は、フレックス項目が主軸上のどこに配置されるかを制御  
+- デフォルト値は flex-start
+  - すべての項目が主軸の始点に配置される 
