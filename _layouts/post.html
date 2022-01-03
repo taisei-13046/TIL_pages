@@ -1,7 +1,18 @@
 ---
 layout: default
-title: {{ page.title }}
+title: { { page.title } }
 ---
 
-<link rel="stylesheet" href="{{ "/assets/css/syntax.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/assets/css/syntax.css" | prepend: site.baseurl
+}}">
+
 {{ page.content }}
+
+<script
+  src="https://utteranc.es/client.js"
+  repo="taisei-13046/TIL_pages"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async
+></script>
