@@ -24,3 +24,8 @@ Djangoの技術インプットを目的とした
 [![taisei-13046/ft_printf - GitHub](https://gh-card.dev/repos/taisei-13046/ft_printf.svg)](https://github.com/taisei-13046/ft_printf)  
 C言語でprintf関数を自作した。  
 メモリリークの内容に意識し、va_argを利用して作成  
+
+- ## task_tool
+[![taisei-13046/task_tool - GitHub](https://gh-card.dev/repos/taisei-13046/task_tool.svg)](https://github.com/taisei-13046/task_tool)  
+React, TSの技術キャッチアップを目的として作成  
+友人と技術を教え合いながら作成した  
