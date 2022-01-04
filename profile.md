@@ -15,8 +15,13 @@ title: profile
 2021年(9月): **Playground入会**  
 
 ## 使用可能な言語
+- C言語
 - HTML, CSS, JS
-- React
+  - **React**
+  <img width="250" alt="スクリーンショット 2022-01-04 16 26 26" src="https://user-images.githubusercontent.com/78260526/148027763-6651421f-7c56-4863-aac3-84454dffda16.png">
+
+
 - Python
-  - Django
+  - **Django**
+  <img width="250" alt="スクリーンショット 2022-01-04 16 26 26" src="https://user-images.githubusercontent.com/78260526/148027765-528d5aa8-9078-4e9a-b68d-94f77ec6f332.png">
 
