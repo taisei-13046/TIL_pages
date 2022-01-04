@@ -9,3 +9,18 @@ title: products
 [![taisei-13046/github-ranking - GitHub](https://gh-card.dev/repos/taisei-13046/github-ranking.svg)](https://github.com/taisei-13046/github-ranking)  
 githubの草の履歴を数値化し、友人同士で競い合うアプリケーション。  
 [アプリURL](https://github-rankiing.firebaseapp.com/)  
+
+- ## Twitter Clone
+[![taisei-13046/twitter - GitHub](https://gh-card.dev/repos/taisei-13046/twitter.svg)](https://github.com/taisei-13046/twitter)  
+Djangoの技術インプットを目的とした
+基本的な機能のみならずテストも意識して作成  
+
+- ## Book Manager
+[![taisei-13046/syosekikennsaku - GitHub](https://gh-card.dev/repos/taisei-13046/syosekikennsaku.svg)](https://github.com/taisei-13046/syosekikennsaku)  
+プログラミング学習開始4ヶ月目に作成した思い出の作品  
+本のISBNコードを元に書籍情報を一覧的に管理する  
+
+- ## ft_printf
+[![taisei-13046/ft_printf - GitHub](https://gh-card.dev/repos/taisei-13046/ft_printf.svg)](https://github.com/taisei-13046/ft_printf)  
+C言語でprintf関数を自作した。  
+メモリリークの内容に意識し、va_argを利用して作成  
