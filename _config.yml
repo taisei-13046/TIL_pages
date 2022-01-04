@@ -17,6 +17,8 @@ link:
 nav:
    Home: "/"
    Posts: "/posts"
+   Profile: "/profile"
+   Products: "/products"
 
    
 markdown: kramdown
