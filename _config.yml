@@ -17,6 +17,7 @@ link:
 nav:
    Home: "/"
    Posts: "/posts"
+   Summary: "/summary"
    Profile: "/profile"
    Products: "/products"
 
