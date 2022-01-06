@@ -25,3 +25,17 @@ title: summary
 [14章 アーキテクチャ](https://married-look-b3b.notion.site/14-c4b488a910124c4baa9e46fb66f4aae9)  
 [15章 ドメイン駆動設計の扉を開こう](https://married-look-b3b.notion.site/15-d8ab3f8fe4424412a668bca77df85ef0)  
 
+
+## りあクト! 
+### I.(言語,環境)
+[3章 関数型プログラミング](https://married-look-b3b.notion.site/3-7694b274588042eb80faecbaffc31108)  
+[4章 TypeScriptで型をご安全に](https://married-look-b3b.notion.site/4-TypeScript-9b5b8884fd1a4260b986164decd8cfb6)  
+
+### II. React 基礎編
+[5章 JSX でUI を表現する](https://married-look-b3b.notion.site/5-JSX-UI-337c1dae16ab4ff093078329eedfc2db)  
+[6章 Linter とフォーマッタでコード美人に](https://married-look-b3b.notion.site/6-Linter-4fd93d54e72647739974236cf9f1f89d)  
+[7章 React をめぐるフロントエンドの歴史](https://married-look-b3b.notion.site/7-React-91e5635ed03941338cf8ea35170fdc70)  
+[8章 何はなくともコンポーネント](https://married-look-b3b.notion.site/8-cd95793a9d8d4cc3bd5229786cb74634)  
+[9章 Hooks 、関数コンポーネントの合体強化パーツ](https://married-look-b3b.notion.site/9-Hooks-e091a66753e94367ba67961b9be2b97b)  
+
+
