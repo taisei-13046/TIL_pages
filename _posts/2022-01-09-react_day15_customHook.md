@@ -16,8 +16,6 @@ udemyの復習
 - `use ~` から始める
 
 #### まずはcustomHookを使用しないでaxiosでAPIを取得する
-<details>
-  <summary>customHook使用前</summary>
   
 ```ts
 export default function App() {
@@ -68,7 +66,6 @@ export default function App() {
   );
 }
 ```
-</details>  
   
 #### ここでのポイント
 **API取得までの間はLoadingを表示する**
@@ -94,8 +91,6 @@ const onClickFetchUser = () => {
 
 #### customHookを使用する
 
-<details>
-  <summary>customHook使用ver</summary>
   
   ```ts
   export const useAllUsers = () => {
@@ -155,7 +150,6 @@ const onClickFetchUser = () => {
   );
 }
   ```
-</details>
 
 **カスタムフックの使用によって超簡潔にまとまって、コンポネートからロジックを分離することに成功した**
 
