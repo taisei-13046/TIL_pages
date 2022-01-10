@@ -74,6 +74,7 @@ except ImportError:
 ```python
 {{ foo }}
 ```
+
 `{{foo}}`ではだめ
 
 View style
