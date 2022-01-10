@@ -6,8 +6,6 @@ category: read
 excerpt: ""
 ---
 
-<div markdown="1">
-
 ## やったこと
 udemyの復習  
 
@@ -18,9 +16,7 @@ udemyの復習
 - `use ~` から始める
 
 #### まずはcustomHookを使用しないでaxiosでAPIを取得する
-<details>
-  <summary>customHook使用前</summary>
-  
+
 ```ts
 export default function App() {
   const [userProfile, setUserProfile] = useState<UserProfile[]>([])
@@ -70,7 +66,6 @@ export default function App() {
   );
 }
 ```
-</details> 
   
 #### ここでのポイント
 **API取得までの間はLoadingを表示する**
