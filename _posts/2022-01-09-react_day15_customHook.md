@@ -7,6 +7,7 @@ excerpt: ""
 ---
 
 <div markdown="1">
+
 ## やったこと
 udemyの復習  
 
