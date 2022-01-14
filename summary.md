@@ -42,4 +42,4 @@ title: summary
 [1章 ネットワーク基礎知識](https://married-look-b3b.notion.site/1-546b90079449465eb5bd6c93840938a2)  
 [2章 TCP/IP基礎知識](https://married-look-b3b.notion.site/2-TCP-IP-01fe50277e5f46ffaaced367164a0c06)  
 [3章 データリンク](https://married-look-b3b.notion.site/3-0d20dd1582e14f708d44943a8c8aca94)  
-
+[4章 IP (Internet Protocol)](https://married-look-b3b.notion.site/4-IP-Internet-Protocol-cd22fed81a2349959af685ee6369f684)  
