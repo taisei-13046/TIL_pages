@@ -68,11 +68,13 @@ export const Button = ({/* 省略 */}: ButtonProps) => {
   );
 };
 ```
+
 - `  const mode = primary? "storybook-button--primary": "storybook-button--secondary";`
   - 三項演算子でstyleに渡す前に確定させておく
 流れはこのような感じ。  
 では、storiesの方はどうなっているのか？  
 上から読み解いていく  
+
 ```ts
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 export default {
@@ -87,9 +89,11 @@ export default {
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 ```
 まず、`title`と`component`は必須で指定する必要がある  
+
 ### argTypesって何？
 [argTypes 公式doc](https://storybook.js.org/docs/react/api/argtypes)  
 これはStorybookのControlsの機能の一部?である  
+
 #### Controlsとは
 Controlsを用いると、Storybook上でコンポーネントのpropsの値を動的に変更し、UIを確かめることができるもの  
 さまざまな指定の仕方があるうちの一つがargTypesである 
@@ -101,6 +105,7 @@ argTypes: {
 わかりやすかった資料  
 [StorybookのControlsを試してみた](https://blog.web.nifty.com/engineer/3540)  
 `backgroundColor: { control: 'color' },`を指定すると色を好きな色に変更ができるようになる  
+
 ### `ComponentStory, ComponentMeta`この型って何?
 ```ts
 export declare type ComponentMeta<
@@ -114,6 +119,7 @@ export declare type ComponentStory<
 **ComponentMeta は Meta のエイリアス、ComponentStory は Story のエイリアスである**  
 **ComponentMeta, ComponentStory を使う場合は型引数が必須となり、この時渡せるのは story のベースとなるコンポーネントの型のみ**  
 **これらの新しい型の登場によって、 Storybook のためだけにコンポーネントの props を export する必要がなくなった**  
+
 ### そもそも`Meta, Story`って何？？
 **Metaについて**  
 storiesファイルでは、Storybookのメタデータをdefault exportする必要がある  
@@ -142,6 +148,7 @@ Primary.args = {
 };
 ```
 このように記述してexportすることでストーリーを表示することができる  
+
 ## 実際にstyled-componentsを使ってコンポーネントを作ってみる
 `src/components/atoms/Text/`に`index.tsx`と`Text.stories.tsx`を作る  
 フォルダ構成は以下のよう
@@ -158,6 +165,7 @@ src - components
         - font-size.ts
       - index.ts
 ```
+
 ### 2. Textのコンポーネントを作成する
 ```ts
 import React from "react";
@@ -185,6 +193,7 @@ const StyledText = styled(Text)`
 const SButton = styled(Button)``
 ```
 などの記述はしていたが、自分で作ったTextコンポーネントをstyled-componentsに当てることがなかったので発見  
+
 ### 3. storiesファイルを作成する
 ```ts
 import React from "react";
