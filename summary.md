@@ -44,3 +44,4 @@ title: summary
 [3章 データリンク](https://married-look-b3b.notion.site/3-0d20dd1582e14f708d44943a8c8aca94)  
 [4章 IP (Internet Protocol)](https://married-look-b3b.notion.site/4-IP-Internet-Protocol-cd22fed81a2349959af685ee6369f684)  
 [5章 IPに関連する技術](https://married-look-b3b.notion.site/5-IP-3217dd3ea7534112939db903b01ee3ed)  
+[6章 TCPとUDP](https://married-look-b3b.notion.site/6-TCP-UDP-608d4fffe10d47e9b62334ff6d957ecb)  
