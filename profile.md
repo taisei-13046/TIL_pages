@@ -26,9 +26,14 @@ title: profile
   <img width="250" alt="スクリーンショット 2022-01-04 16 26 26" src="https://user-images.githubusercontent.com/78260526/148027765-528d5aa8-9078-4e9a-b68d-94f77ec6f332.png">
 
 ## 実績(経験)
-- 2021/8 サポータズハッカソン参加 努力賞
+- 2021/8 サポータズハッカソン参加 入賞
 - 2021/7 ~ 9 合計10社の夏インターンに参加
 - 2021/12 株式会社shinonome主催の渋温泉ハッカソン　準優勝
+- 2022/1 サポーターズハッカソン参加 入賞
+
+<img width="367" alt="スクリーンショット 2022-01-24 13 06 55" src="https://user-images.githubusercontent.com/78260526/150720476-423eb23c-cceb-410d-bfe0-0f93f60abd16.png">
+
+
 
 ### その他
 ハッカソンには2021/8から毎月出場  
