@@ -309,6 +309,8 @@ interface PayloadAction<P, T extends string, M, E> {
 - action.payload - Actionに必要なデータ
 - action.meta - action.payloadに含まれない副次的なデータ
 - action.error - trueである時エラーであり、action.payloadがエラーオブジェクトである
+
+
 [たぶんこれが一番分かりやすいと思います React + Redux のフロー図解](https://qiita.com/mpyw/items/a816c6380219b1d5a3bf)  
 Actionは基本的に以下のようなフォーマットを持つオブジェクトになる。  
 ```ts
