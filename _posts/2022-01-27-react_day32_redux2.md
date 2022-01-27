@@ -215,6 +215,8 @@ thunk action createrには`pending`, `fulfilled`, `rejected`がネスとされ�
 3. Promiseが正常に解決したら、Promiseの値をaction.payloadとしてfulfilledアクションをdispatchする
 4. PromiseがrejectWithValueとして解決した場合、rejectedアクションをaction.payloadに渡された値とaction.error.messageとしてdispatchする
 5. Promiseが失敗した場合、拒否されたアクションをシリアル化されたエラー値と共にaction.errorとしてdispatchする
+
+
 ### Promise Lifecycle Actions
 createAsyncThunkは`createAction`を使用してredux actionを作成する  
 それぞれの型は以下のようになっている  
@@ -280,6 +282,8 @@ type RejectedWithValue = <ThunkArg, RejectedValue>(
   arg: ThunkArg
 ) => RejectedWithValueAction<ThunkArg, RejectedValue>
 ```
+
+
 ### Handling Thunk Results
 ```ts
 // in the component
@@ -297,6 +301,8 @@ const onClick = () => {
 }
 ```
 unwrapResultを使うと成功時（fulfilled時）に.then(...)、失敗時（rejected時）に.catch(...)へと処理を分けてくれる  
+
+
 ## createAsyncThunkについて
 [Redux Toolkit で Async Thunk が曲者なので詳しく解説する](https://times.hrbrain.co.jp/entry/2020/12/08/redux-toolkit-async-thunk)  
 createAsyncThunkの型  
@@ -318,6 +324,8 @@ function createAsyncThunk<
     Thunkが引き回しているコンテキストの型
 >(/* ... */)
 ```
+
+
 #### 1. Returned
 Returned は AsyncThunkPayloadCreator に渡されている  
 ```ts
@@ -335,8 +343,12 @@ type AsyncThunkPayloadCreatorReturnValue<
 > = Promise<Returned | RejectWithValue<GetRejectValue<ThunkApiConfig>>> | Returned | RejectWithValue<GetRejectValue<ThunkApiConfig>>;
 ```
 大抵は void とかフェッチしてきたデータを返してあげたりする時の型を入れてあげれば良い  
+
+
 #### 2. ThunkArg
 これは createAsyncThunkの第2引数の関数の第1引数  
+
+
 #### 3. ThunkApiConfig
 これはRedux ToolkitがThunkのAPIをまとめた型で、中にはおなじみの dispatch や getState などが入っている  
 `ThunkApiConfig extends AsyncThunkConfig`となっているのでAsyncThunkConfigを見てみる  
