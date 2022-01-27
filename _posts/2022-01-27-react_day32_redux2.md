@@ -205,6 +205,8 @@ payloadCreaterは二つの引数を受け取る
     signal: AbortSignal;
   }
   ```
+
+
 #### Return
 返り値はdefaultのthunk action createrを返す  
 thunk action createrには`pending`, `fulfilled`, `rejected`がネスとされたフィールドとして追加されている  
