@@ -6,9 +6,10 @@ title: summary
 
 #  Summary
 今までに読んだ技術書の要約を掲載  
-全てNotionで管理している
+全てNotionで管理している  
+💯 -> 完読した
 
-## ドメイン駆動設計入門
+## ドメイン駆動設計入門 💯
 [1章 ドメイン駆動設計とは](https://married-look-b3b.notion.site/1-ef5371512948493ea8dc740fc3986443)  
 [2章 システム固有の値を表現する「値オブジェクト」](https://married-look-b3b.notion.site/2-eb2c7e296cb24cd3ba015936b06485bb)  
 [3章 ライフサイクルのあるオブジェクト「エンティティ」](https://married-look-b3b.notion.site/3-1b41bb813c9d4dcc8acc4ef498e116e3)  
@@ -38,7 +39,7 @@ title: summary
 [8章 何はなくともコンポーネント](https://married-look-b3b.notion.site/8-cd95793a9d8d4cc3bd5229786cb74634)  
 [9章 Hooks 、関数コンポーネントの合体強化パーツ](https://married-look-b3b.notion.site/9-Hooks-e091a66753e94367ba67961b9be2b97b)  
 
-## マスタリングTCP/IP
+## マスタリングTCP/IP 💯
 [1章 ネットワーク基礎知識](https://married-look-b3b.notion.site/1-546b90079449465eb5bd6c93840938a2)  
 [2章 TCP/IP基礎知識](https://married-look-b3b.notion.site/2-TCP-IP-01fe50277e5f46ffaaced367164a0c06)  
 [3章 データリンク](https://married-look-b3b.notion.site/3-0d20dd1582e14f708d44943a8c8aca94)  
@@ -47,4 +48,4 @@ title: summary
 [6章 TCPとUDP](https://married-look-b3b.notion.site/6-TCP-UDP-608d4fffe10d47e9b62334ff6d957ecb)  
 [7章 ルーティングプロトコル](https://married-look-b3b.notion.site/7-7463c8e484c8493f8db77cd014ab6cee)  
 [8章 アプリケーションプロトコル](https://married-look-b3b.notion.site/8-0f5e75da4e86491585cf63826296c1ec)  
-
+[9章 セキュリティ](https://married-look-b3b.notion.site/9-ce66857d15394631abd6e70d43847337)  
