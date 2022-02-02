@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MDNのHTTPをまとめた" 
+title: "MDNのHTTPをまとめた what is HTTP? -> ⭕️" 
 date: 2022-02-01 
 category: read 
 excerpt: ""
