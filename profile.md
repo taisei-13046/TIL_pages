@@ -31,7 +31,10 @@ title: profile
 - 2021/12 株式会社shinonome主催の渋温泉ハッカソン　準優勝
 - 2022/1 サポーターズハッカソン参加 入賞
 
-<img width="367" alt="スクリーンショット 2022-01-24 13 06 55" src="https://user-images.githubusercontent.com/78260526/150720476-423eb23c-cceb-410d-bfe0-0f93f60abd16.png">
+<img width="400" src="https://user-images.githubusercontent.com/78260526/152305477-986366a6-fb10-44d6-8b5e-db7beb802d33.png">
+
+
+<img width="400" alt="スクリーンショット 2022-01-24 13 06 55" src="https://user-images.githubusercontent.com/78260526/150720476-423eb23c-cceb-410d-bfe0-0f93f60abd16.png">
 
 
 
