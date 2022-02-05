@@ -41,4 +41,4 @@ title: profile
 ## プログラミング以外の活動
 早稲田大学のオリンピック推進サークルにて、早稲田祭の企画代表を務めた。  
 内容: 東京アクアティクスセンターの完成披露式典に学生リポーターとして取材し、放映  
-[youtubeに公開された動画](https://www.youtube.com/watch?v=WkJMbKUOCmc)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WkJMbKUOCmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
