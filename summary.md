@@ -49,3 +49,9 @@ title: summary
 [7章 ルーティングプロトコル](https://married-look-b3b.notion.site/7-7463c8e484c8493f8db77cd014ab6cee)  
 [8章 アプリケーションプロトコル](https://married-look-b3b.notion.site/8-0f5e75da4e86491585cf63826296c1ec)  
 [9章 セキュリティ](https://married-look-b3b.notion.site/9-ce66857d15394631abd6e70d43847337)  
+
+## オブジェクト指向でなぜつくるか
+[1章 オブジェクト指向はソフトウェア開発を楽にする技術](https://married-look-b3b.notion.site/1-efdb31e10eb14069a090bf8233798907)  
+[2章 オブジェクト指向と現実世界は似て非なるもの](https://married-look-b3b.notion.site/2-1c9f34d513584b19bbc113b81cab6e4b)  
+
+
