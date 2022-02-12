@@ -115,6 +115,7 @@ flex-flowは
 を一括指定するプロパティ
 
 #### flex-wrapって何？
+
 flex-wrap は CSS のプロパティで、フレックスアイテムを単一行に押し込むか、あるいは複数行に折り返してもよいかを指定します。折り返しを許可する場合は、行を積み重ねる方向の制御も可能です。  
 ```css
 flex-wrap: nowrap; /* 既定値 */
@@ -122,6 +123,7 @@ flex-wrap: wrap;
 flex-wrap: wrap-reverse;
 ```
 flex-flowはこれらを一括指定する際に使うため以下のようにできる
+
 ```css
 flex-flow: row nowrap;
 flex-flow: column wrap;
@@ -131,6 +133,7 @@ flex-flow: column-reverse wrap-reverse;
 ### H44: テキストラベルとフォームコントロールを関連付けるために、label 要素を使用する
 > この達成方法の目的は、フォームコントロールとラベルを明示的に関連付けるために、label 要素を利用することである。ラベルは、label 要素の for 属性によって特定のフォームコントロールと結びつけることができる。この場合、for 属性値はフォームコントロールの id 属性値と同じでなければならない。
 > id 属性が name 属性と同じ値で、両方とも指定しなければならない場合でも、その id はそのウェブページ内で一意的なものとして、重複して使用してはならない。
+
 明示的なラベルを利用する要素は次の通りである:
 - `input type="text"`
 - `input type="checkbox"`
@@ -139,11 +142,13 @@ flex-flow: column-reverse wrap-reverse;
 - `input type="password"`
 - `textarea`
 - `select`
+
 次の場合には、label 要素は利用しない。これらの要素に対するラベルは、value 属性 (送信ボタン及びリセットボタン)、alt 属性 (画像ボタン)、又は要素それ自体の内容 (汎用ボタン) を介して提供されるからである。  
 - 送信及びリセットボタン (input type="submit" 又は input type="reset")
 - 画像ボタン (input type="image")
 - 隠しフィールド (input type="hidden")
 - スクリプトボタン (button 要素又は input type="button")
+
 ```html
 <label for="firstname">First name:</label> 
 <input type="text" name="firstname" id="firstname" />
@@ -153,6 +158,7 @@ flex-flow: column-reverse wrap-reverse;
 longdescは、役割としては画像のaltに近いですが、altの説明で不十分な場合に、より長い文章（コンテンツ）を外部HTMLファイルに格納して提示する点が異なります。  
 
 > この達成方法の目的は、短いテキストによる代替では画像の機能や情報が十分に伝達できない場合に、longdesc 属性でのファイル指定によって情報を提供することである。longdesc 属性には URI を指定する。これは非テキストコンテンツの詳しい説明を含む目的地を意味する。  
+
 ```html
 <p><img src="chart.gif" alt="a complex chart" longdesc="chartdesc.html"/></p>
 ```
@@ -163,6 +169,7 @@ embed要素がサポートされていない場合に表示するコンテンツ
 noembed要素はembed要素の内側（小要素）もしくは、直下（兄弟要素）に設置してあげます。  
 
 > この達成方法の目的は、embed 要素の代替コンテンツとして noembed を提供することである。noembed 要素は embed 要素がサポートされていない場合のみレンダリングされる。ページのどこにでも配置できるが、embed 要素の子要素として組み込む方が良い。これによりテキストによる代替が embed 要素に関連付けられてことが支援技術にも明らかになる。  
+
 ```html
 <embed src="../movies/history_of_rome.mov"
   height="60" width="144" autostart="false">
