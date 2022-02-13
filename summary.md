@@ -53,5 +53,11 @@ title: summary
 ## オブジェクト指向でなぜつくるか
 [1章 オブジェクト指向はソフトウェア開発を楽にする技術](https://married-look-b3b.notion.site/1-efdb31e10eb14069a090bf8233798907)  
 [2章 オブジェクト指向と現実世界は似て非なるもの](https://married-look-b3b.notion.site/2-1c9f34d513584b19bbc113b81cab6e4b)  
+[3章 OOPを理解する近道はプログラミング言語の歴史にあり](https://married-look-b3b.notion.site/3-OOP-2659108009394a128881e7b6a18e568a)  
+[4章 OOPは無駄を省いて整理整頓するプログラミング技術](https://married-look-b3b.notion.site/4-OOP-f3566356fd544a9f94e52c4be3065062)  
+[5章 メモリの仕組みの理解はプログラマのたしなみ](https://married-look-b3b.notion.site/5-03765734ad274dc7ac75261fb325bc03)  
+[6章 OOPがもたらしたソフトウェアとアイデアの再利用](https://married-look-b3b.notion.site/6-OOP-4c7b2187b2fa45b78d4766ea4bd910af)  
+
+
 
 
