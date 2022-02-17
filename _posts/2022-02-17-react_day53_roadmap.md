@@ -7,7 +7,7 @@ excerpt: ""
 ---
 
 ## やったこと
-SEOについて
+SEOについて, roadmapの進捗確認
 
 とその前に、
 ## rem, emについて
