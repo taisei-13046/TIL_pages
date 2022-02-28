@@ -50,14 +50,18 @@ title: summary
 [8章 アプリケーションプロトコル](https://married-look-b3b.notion.site/8-0f5e75da4e86491585cf63826296c1ec)  
 [9章 セキュリティ](https://married-look-b3b.notion.site/9-ce66857d15394631abd6e70d43847337)  
 
-## オブジェクト指向でなぜつくるか
+## オブジェクト指向でなぜつくるか 💯
 [1章 オブジェクト指向はソフトウェア開発を楽にする技術](https://married-look-b3b.notion.site/1-efdb31e10eb14069a090bf8233798907)  
 [2章 オブジェクト指向と現実世界は似て非なるもの](https://married-look-b3b.notion.site/2-1c9f34d513584b19bbc113b81cab6e4b)  
 [3章 OOPを理解する近道はプログラミング言語の歴史にあり](https://married-look-b3b.notion.site/3-OOP-2659108009394a128881e7b6a18e568a)  
 [4章 OOPは無駄を省いて整理整頓するプログラミング技術](https://married-look-b3b.notion.site/4-OOP-f3566356fd544a9f94e52c4be3065062)  
 [5章 メモリの仕組みの理解はプログラマのたしなみ](https://married-look-b3b.notion.site/5-03765734ad274dc7ac75261fb325bc03)  
 [6章 OOPがもたらしたソフトウェアとアイデアの再利用](https://married-look-b3b.notion.site/6-OOP-4c7b2187b2fa45b78d4766ea4bd910af)  
-
-
+[7章 汎用の整理術に化けたオブジェクト指向](https://married-look-b3b.notion.site/7-9af9dc7caa5443ac96d59e787bfc4aac)  
+[8章 UMLは形のないソフトウェアを見る道具](https://married-look-b3b.notion.site/8-UML-5319c8d8bddb403cb9327490f5cce1af)  
+[9章 現実世界とソフトウェアのギャップを埋めるモデリング](https://married-look-b3b.notion.site/9-4103f1d9912740e18411bab8787be90a)  
+[10章 擬人化して役割分担させるオブジェクト指向](https://married-look-b3b.notion.site/10-09a95738d2ef4802b4e6f99e8d5af93e)  
+[11章 オブジェクト指向から生まれたアジャイル開発](https://married-look-b3b.notion.site/11-5ab8206c7f3b4a678353738084c84662)  
+[補章 関数型言語でなぜ作るか](https://married-look-b3b.notion.site/bbec7f76a34c4627a5c73cffa0a3436d)  
 
 
