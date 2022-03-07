@@ -64,4 +64,21 @@ title: summary
 [11章 オブジェクト指向から生まれたアジャイル開発](https://married-look-b3b.notion.site/11-5ab8206c7f3b4a678353738084c84662)  
 [補章 関数型言語でなぜ作るか](https://married-look-b3b.notion.site/bbec7f76a34c4627a5c73cffa0a3436d)  
 
+## リーダブルコード
+[1章 理解しやすいコード](https://lavish-rise-c94.notion.site/1-92c3c37968dd4973aa82f2f8e7aa3e37)  
+[2章 名前に情報を詰め込む](https://lavish-rise-c94.notion.site/2-2fe492c1bd1d4334ab36cd815ef82962)  
+[3章 誤解されない名前](https://lavish-rise-c94.notion.site/3-05d918903b40419291ba16645e45d4f9)  
+[4章 美しさ](https://lavish-rise-c94.notion.site/4-0b1c549a5e8a414b8a1ed6082faef04e)  
+[5章 コメントすべきことを知る](https://lavish-rise-c94.notion.site/5-809fc166bfd24478b44f2b6eca480efb)  
+[6章 コメントは正確で簡潔に](https://lavish-rise-c94.notion.site/6-d33d5fce2b984ae4aecbcf61ae7ab8c2)  
+
+
+
+
+
+
+
+
+
+
 
