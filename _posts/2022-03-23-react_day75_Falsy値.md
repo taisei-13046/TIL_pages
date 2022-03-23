@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Falsy値を比較せずにそのまま判定に使うことはやめようっていう記事について" 
-date: 2022-03-24 
+date: 2022-03-23 
 category: read 
 excerpt: ""
 ---
