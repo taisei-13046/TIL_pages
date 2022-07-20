@@ -5,7 +5,7 @@ title: products
 
 #  Products
 
-- ## P2P Matching (2021/12)
+- ## P2P Matching (2021/12 ~ 現在)
 [![42supporters-hackason/P2P-matching - GitHub](https://gh-card.dev/repos/42supporters-hackason/P2P-matching.svg)](https://github.com/42supporters-hackason/P2P-matching)  
 エンジニア同士のペアプロをマッチングさせるサービス  
 [成果発表資料](https://docs.google.com/presentation/d/1bRUSQLREUn3M8Lo2YQrRPIjhEQy4bV4yTBmMLTP03Ag/edit?usp=sharing)  
