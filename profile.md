@@ -36,6 +36,7 @@ title: profile
 - 2021/7 ~ 9 合計10社の夏インターンに参加
 - 2021/12 株式会社shinonome主催の渋温泉ハッカソン　準優勝
 - 2022/1 サポーターズハッカソン参加 入賞
+- 2022/6 株式会社パーソルキャリア　「Sprinters」　個人MVP
 
 <img width="400" src="https://user-images.githubusercontent.com/78260526/152305477-986366a6-fb10-44d6-8b5e-db7beb802d33.png">
 
