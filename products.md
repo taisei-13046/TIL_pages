@@ -23,7 +23,9 @@ title: products
   - Apollo Client
 - Twilio Video
 
-[技育展.pptx](https://github.com/taisei-13046/TIL_pages/files/9592867/default.pptx)
+アプリの概要は下記の資料でご覧になれます！  
+
+[ぺあぷろ！資料.pptx](https://github.com/taisei-13046/TIL_pages/files/9592867/default.pptx)
 
 
 - ## Github Ranking (2021/10)
