@@ -23,6 +23,9 @@ title: products
   - Apollo Client
 - Twilio Video
 
+[技育展.pptx](https://github.com/taisei-13046/TIL_pages/files/9592867/default.pptx)
+
+
 - ## Github Ranking (2021/10)
 [![taisei-13046/github-ranking - GitHub](https://gh-card.dev/repos/taisei-13046/github-ranking.svg)](https://github.com/taisei-13046/github-ranking)  
 githubの草の履歴を数値化し、友人同士で競い合うアプリケーション。  
