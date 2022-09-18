@@ -5,10 +5,23 @@ title: products
 
 #  Products
 
-- ## P2P Matching (2021/12 ~ 現在)
-[![42supporters-hackason/P2P-matching - GitHub](https://gh-card.dev/repos/42supporters-hackason/P2P-matching.svg)](https://github.com/42supporters-hackason/P2P-matching)  
-エンジニア同士のペアプロをマッチングさせるサービス  
-[成果発表資料](https://docs.google.com/presentation/d/1bRUSQLREUn3M8Lo2YQrRPIjhEQy4bV4yTBmMLTP03Ag/edit?usp=sharing)  
+- ## pairpro (ぺあぷろ！) (2021/12 ~ 現在)
+[![42supporters-hackason/pair-pro - GitHub](https://gh-card.dev/repos/42supporters-hackason/pair-pro.svg)](https://github.com/42supporters-hackason/pair-pro)  
+2022年技育展出展作品
+- コミュニティ内でペアプロをマッチングし、「学び合い」文化を創るサービス
+- マッチングポイントでドライバーとナビゲータの数のバランスを調整
+- マッチング => チャット => ビデオ通話を全て一気通貫で行える
+- 過去のペアプロ履歴から統計が取られランキング化
+
+担当
+- フロントエンド兼デザイン
+
+使用技術
+- React
+- Typescript
+- GraphQL
+  - Apollo Client
+- Twilio Video
 
 - ## Github Ranking (2021/10)
 [![taisei-13046/github-ranking - GitHub](https://gh-card.dev/repos/taisei-13046/github-ranking.svg)](https://github.com/taisei-13046/github-ranking)  
