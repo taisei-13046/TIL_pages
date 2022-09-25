@@ -7,7 +7,7 @@ title: products
 
 - ## pairpro (ぺあぷろ！) (2021/12 ~ 現在)
 [![42supporters-hackason/pair-pro - GitHub](https://gh-card.dev/repos/42supporters-hackason/pair-pro.svg)](https://github.com/42supporters-hackason/pair-pro)  
-2022年技育展出展作品
+2022年技育展出展作品 **優秀賞受賞**  
 - コミュニティ内でペアプロをマッチングし、「学び合い」文化を創るサービス
 - マッチングポイントでドライバーとナビゲータの数のバランスを調整
 - マッチング => チャット => ビデオ通話を全て一気通貫で行える
