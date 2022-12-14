@@ -40,7 +40,7 @@ title: profile
 <img width="400" alt="スクリーンショット 2022-01-24 13 06 55" src="https://user-images.githubusercontent.com/78260526/150720476-423eb23c-cceb-410d-bfe0-0f93f60abd16.png">
 
 ## 外部で執筆したブログ
-https://blog.shinonome.io/5-habits/
+[長期的な目標を達成するための5つの習慣](https://blog.shinonome.io/5-habits/)
 
 ## プログラミング以外の活動
 ### 五輪推進サークル早稲田祭企画代表
